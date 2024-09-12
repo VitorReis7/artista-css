@@ -176,5 +176,17 @@ a{
   text-decoration: none;
 }
 p a{
-  
+
+}
+.m#acesso{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  padding: 40px 80px;
+}
+.m a img{
+  width: 40px;
+}
+#descricao ol{
+  font-weight: normal;
 }
