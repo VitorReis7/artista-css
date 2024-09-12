@@ -4,11 +4,6 @@ body {
   font-family: 'Poppins';
 }
 
-header, #principal, #second, #contato, #stream {
-	
-}
-
-
 .link-menu {
   color: #fff;
   background-color: #555;
@@ -88,9 +83,11 @@ figure{
   display: flex;
   flex: 1;
   justify-content: right;
+  margin-left: 0;
 }
 #principal{
-  width: 1050px;
+  width: 1200px;
+  padding: 10px;
 }
 #principal, #sec_ctd{
   display: flex;
@@ -105,10 +102,11 @@ figure{
   flex: 1;
 }
 #sec_ctd p{
-  width: 400px;
+  width: 500px;
   text-align: justify;
   display: flex;
   align-self: flex-start;
+  flex-direction: column;
 }
 #second{
   margin: 100px auto;
@@ -119,4 +117,64 @@ figure{
 }
 .capa{
   width: 200px;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  height: 50px;
+}
+#contato{
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+#email{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+#email a{
+  color: white;
+  text-decoration: none;
+}
+#social{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  gap: 20px;
+}
+#social a img{
+  display: flex;
+  width: 30px;
+  align-self: center;
+}
+#sinopse, #resumo{
+  display: flex;
+  flex-direction: column;
+}
+#descricao{
+  border: 1px solid lightgray;
+  padding: 20px;
+}
+div#descricao{
+  padding-right: 400px;
+  font-weight: bold;
+}
+#acesso{
+  padding: 25px 50px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px gray;
+  text-align: center;
+  font-family: "Amatic SC";
+  font-size: 20px;
+}
+#acesso.l{
+  color: white;
+  padding: 25px 80px;
+}
+a{
+  text-decoration: none;
+}
+p a{
+  
 }
