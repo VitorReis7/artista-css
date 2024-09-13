@@ -104,9 +104,7 @@ figure{
 #sec_ctd p{
   width: 500px;
   text-align: justify;
-  display: flex;
   align-self: flex-start;
-  flex-direction: column;
 }
 #second{
   margin: 100px auto;
@@ -175,9 +173,7 @@ div#descricao{
 a{
   text-decoration: none;
 }
-p a{
 
-}
 .m#acesso{
   display: flex;
   flex-direction: row;
